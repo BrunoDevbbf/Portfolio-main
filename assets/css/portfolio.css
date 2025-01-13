@@ -1,0 +1,37 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 1rem; /* Espaçamento entre os itens */
+    padding: 0;
+    list-style: none;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.portfolio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Centraliza horizontalmente */
+    width: 300px; /* Define uma largura fixa para os itens */
+    border: 1px solid #ccc; /* Adiciona borda ao redor de cada item */
+    padding: 1rem; /* Adiciona padding dentro de cada item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar os itens */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+    background-color: #fff; /* Fundo branco para os itens */
+}
+
+.portfolio li img {
+    max-width: 100%; /* Define o tamanho máximo da imagem */
+    margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
+    border-radius: 4px; /* Adiciona cantos arredondados à imagem */
+}
+
+.portfolio li .title {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: .5rem;
+    text-align: center; /* Centraliza o texto */
+}
